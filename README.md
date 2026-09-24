@@ -228,7 +228,7 @@ For reproducible results, also record the MATLAB release, complete parameter str
 ## Development roadmap
 
 - Add analytical-comparison functions
-- Export a small set of representative figures
+
 <!--
 - Add mass-conservation and mechanical-residual diagnostics
 - Add automated tests for all three shell modes
