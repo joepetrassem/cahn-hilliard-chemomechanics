@@ -198,6 +198,7 @@ figs = visualisation(sol, params);
 
 Plot limits, labels, and formatting can be adjusted in the relevant plotting block inside `visualisation.m`.
 
+<!--
 ## Planned validation
 
 The following verification and comparison cases are planned:
@@ -215,7 +216,7 @@ The following verification and comparison cases are planned:
 
 These files will be placed in `validation/` and `tests/` rather than mixed with the core solver.
 
-
+-->
 ## Reproducibility
 
 For reproducible results, also record the MATLAB release, complete parameter structure, mesh resolution, loading protocol, and solver tolerances.
@@ -223,21 +224,22 @@ For reproducible results, also record the MATLAB release, complete parameter str
 ## Development roadmap
 
 - Add analytical-comparison functions
+- Export a small set of representative figures
+<!--
 - Add mass-conservation and mechanical-residual diagnostics
 - Add automated tests for all three shell modes
 - Implement and verify unloading/reverse-yield events
 - Add voltage and overpotential reconstruction
 - Add convergence studies
-- Export a small set of representative figures
 - Add a software citation file and archived release
-
+-->
 ## Citation?
 
 A `CITATION.cff` file will be added when the associated publication or thesis citation is finalised.
 
 ## Licence
 
-TBD
+MIT License
 
 ## Author
 
