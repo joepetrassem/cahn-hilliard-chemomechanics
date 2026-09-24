@@ -198,6 +198,10 @@ figs = visualisation(sol, params);
 
 Plot limits, labels, and formatting can be adjusted in the relevant plotting block inside `visualisation.m`.
 
+Figures for a elastoplastic shell full charge:
+![SummElastoplastic](visualisation/SummElastoplastic.png)
+![RadialElastoplastic](visualisation/RadialElastoplastic.png)
+![ShelllElastoplastic](visualisation/shelllElastoplastic.png)
 <!--
 ## Planned validation
 
