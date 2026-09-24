@@ -215,24 +215,8 @@ The following verification and comparison cases are planned:
 
 These files will be placed in `validation/` and `tests/` rather than mixed with the core solver.
 
-## Current limitations
-
-- The model assumes spherical symmetry.
-- Particle mechanics is quasistatic.
-- The shell is represented by a reduced surface constitutive law rather than a spatially resolved shell domain.
-- The present implementation uses nondimensional model equations, while some dimensional material parameters are retained for scaling and future development.
-- Voltage and overpotential are not included in the current post-processed output.
-- The current elastoplastic implementation detects initial yielding, but the unloading and reverse-yield treatment is still under development.
-- Analytical validation and automated regression tests have not yet been added to the public workflow.
-- The code is research software and should not yet be used as a validated predictive engineering tool.
 
 ## Reproducibility
-
-The current initial concentration is spatially uniform. If a random perturbation is reintroduced to initiate phase separation, set and record the MATLAB random-number seed:
-
-```matlab
-rng(1);
-```
 
 For reproducible results, also record the MATLAB release, complete parameter structure, mesh resolution, loading protocol, and solver tolerances.
 
@@ -247,13 +231,13 @@ For reproducible results, also record the MATLAB release, complete parameter str
 - Export a small set of representative figures
 - Add a software citation file and archived release
 
-## Citation
+## Citation?
 
 A `CITATION.cff` file will be added when the associated publication or thesis citation is finalised.
 
 ## Licence
 
-A licence should be added before public release. The choice must be consistent with any university, collaborator, publication, or funder requirements.
+TBD
 
 ## Author
 
